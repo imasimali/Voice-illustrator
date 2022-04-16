@@ -1,0 +1,50 @@
+.load-wrapper{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.loading-card{
+    background: white;
+    width: 665px;
+    margin:10px;
+    border-radius: 15px;
+}
+
+.card-l{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+@keyframes loading {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  .loading-spinner {
+    width: 200px;
+    height: 200px;
+    border: 10px solid #f3f3f3; /* Light grey */
+    border-top: 10px solid #383636; /* Blue */
+    border-radius: 50%;
+    animation: loading 1.5s linear infinite;
+  }
+  
+  .spinner-container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+  }
+
+.loading-txt{
+    text-align: center;
+    margin-bottom: 20px;
+
+}

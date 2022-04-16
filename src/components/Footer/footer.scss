@@ -1,0 +1,36 @@
+.footer-contain{
+    background-color: #1c2841;
+    padding: 20px 42px;
+    color: white;
+    margin-top: 120px;
+
+}
+
+
+.combine{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.about-txt{
+    margin-bottom: 5px;
+}
+.contact-txt{
+    margin-bottom: 5px;
+}
+.log{
+    width: 80px;
+    height: 80px;
+    display: inline-flex !important;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    margin-right: 7px !important;
+ 
+}
+.log img{
+    width:100%;
+}
+.text{
+    margin-top: -20px;
+}

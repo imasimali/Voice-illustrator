@@ -1,0 +1,59 @@
+.creation-heading{
+    color: #CACEE8;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.creation-buttons{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 75px;
+}
+
+.creative-btn{
+    border: none;
+    padding: 20px 44px;
+    border-radius: 50px;
+    background-color: white;
+    margin-right: 20px;
+    font-size: 16px;
+    font-weight: bold;
+
+    
+}
+.dashed-border{
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+    background: white;
+    border: 3px dashed rgb(204, 204, 204);
+    margin: auto;
+    width:760px;
+    height:368px
+    
+
+}
+.creation-inner{
+
+    margin-top: 2px;
+    margin-bottom: 15px;
+}
+
+.creation-wrap{
+    background: white;
+    width: 741px;
+    margin:4px;
+    
+}
+.creation-image{
+    
+    height: 350px;
+    margin-bottom: -9px;
+    
+    
+}
+.creation{
+    background-image: url("../../assets/images/creation.jpg");
+    background-size: cover;
+}

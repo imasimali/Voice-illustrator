@@ -1,0 +1,92 @@
+
+
+.back{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: var(--secondary-color);
+    height:550px;
+    max-width:320px !important;
+    margin-top: 40px;
+    padding:0 40px;
+    margin-bottom: 20px;
+    background-image:url(../../assets/images/black3.jfif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    .title{
+        margin-top: 120px;
+        position: relative;
+        font-size: 12px;
+        margin-left: 38px;
+        &:before{
+            position: absolute;
+            content: "";
+            width:28px;
+            height: 2px;
+            background-color:var(--primary-color) ;
+            left: -37px;
+            top:6px
+            
+        }
+    }
+    .login{
+        position: relative;
+        &:after{
+            position: absolute;
+            content: "";
+            width:115px;
+            height:4px;
+            background-color:var(--secondary-color);
+            left:40px;
+            top:68px;
+        }
+       
+    }
+    .form{
+        margin-top: 60px;
+        .input-wrapper{
+            border-bottom: solid 1px var(--secondary-color);
+        }
+        .inputs{
+            background: transparent;
+            border: none;
+            border-radius: 0px;
+            color: var(--secondary-color);
+            &:focus{
+                box-shadow: none;
+            }
+
+        }
+    }
+    .loginBtn{
+        background: transparent;
+        border: solid 3px var(--primary-color);
+        margin-top: 20px;
+        border-radius: 0px;
+        position: relative;
+        text-align: right;
+        &:before{
+            position: absolute;
+            content: "";
+            width:115px;
+            height:4px;
+            background-color:var(--secondary-color);
+            left:16px;
+            top:18px;
+        }
+        &:hover{
+            background-color: var(--primary-color);
+        }
+        
+    }
+    .links{
+        margin-top: 80px;
+        a{
+            text-decoration: none;
+            color: var(--secondary-color);
+            font-size: 12px;
+        }
+    }
+}

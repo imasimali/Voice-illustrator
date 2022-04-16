@@ -1,0 +1,66 @@
+.heading{
+    
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+    color: #CACEE8;
+
+}
+.speech{
+    margin-top: 50px;
+    margin-left: 100px;
+    color:#CACEE8;
+}
+.give{
+    margin-top: 10px;
+    margin-left: 100px;
+    color: darkgray;
+}
+
+
+
+
+.checked{
+    background-image: linear-gradient(45deg, rgb(238, 238, 238) 25%, transparent 32%), linear-gradient(-45deg, rgb(238, 238, 238) 25%, transparent 262%), linear-gradient(45deg, transparent 75%, rgb(238, 238, 238) 75%), linear-gradient(-45deg, transparent 75%, rgb(238, 238, 238) 75%);
+    background-size: 20px 20px;
+    background-position: 0px 0px, 0px 10px, 10px -10px, -10px 0px;
+    border: 1px solid rgb(238, 238, 238);
+    position: relative;
+    width: 80%;
+    min-height: 90px;
+    padding: 40px;
+    margin-left: 100px;
+    margin-top: 27px;
+}
+.upload{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.uploadBtn{
+    border: none;
+    padding: 15px 30px;
+    background-color: black;
+    color: white;
+    &:focus{
+        background-color: none !important;
+        border: none !important;
+        box-shadow: none !important;
+    }
+    
+}
+.submit{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 55px;
+}
+
+.generateBtn{
+    border: none;
+    padding: 15px 90px;
+    border-radius: 50px;
+    background-color: white;
+    color: black;
+}

@@ -1,0 +1,105 @@
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: black;
+  color: var(--secondary-color);
+  height: 550px;
+  max-width: 320px !important;
+  margin-top: 40px;
+  padding: 0 40px;
+  margin-bottom: 20px;
+  background-image: url(../../assets/images/black3.jfif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container .title {
+  margin-top: 120px;
+  position: relative;
+  font-size: 12px;
+  margin-left: 38px;
+}
+
+.container .title:before {
+  position: absolute;
+  content: "";
+  width: 28px;
+  height: 2px;
+  background-color: var(--primary-color);
+  left: -37px;
+  top: 6px;
+}
+
+.container .login {
+  position: relative;
+}
+
+.container .login:after {
+  position: absolute;
+  content: "";
+  width: 115px;
+  height: 4px;
+  background-color: var(--secondary-color);
+  left: 40px;
+  top: 68px;
+}
+
+.container .form {
+  margin-top: 60px;
+}
+
+.container .form .input-wrapper {
+  border-bottom: solid 1px var(--secondary-color);
+}
+
+.container .form .inputs {
+  background: transparent;
+  border: none;
+  border-radius: 0px;
+  color: var(--secondary-color);
+}
+
+.container .form .inputs:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.container .loginBtn {
+  background: transparent;
+  border: solid 3px var(--primary-color);
+  margin-top: 20px;
+  border-radius: 0px;
+  position: relative;
+  text-align: right;
+}
+
+.container .loginBtn:before {
+  position: absolute;
+  content: "";
+  width: 115px;
+  height: 4px;
+  background-color: var(--secondary-color);
+  left: 16px;
+  top: 18px;
+}
+
+.container .loginBtn:hover {
+  background-color: var(--primary-color);
+}
+
+.container .links {
+  margin-top: 80px;
+}
+
+.container .links a {
+  text-decoration: none;
+  color: var(--secondary-color);
+  font-size: 12px;
+}
+/*# sourceMappingURL=loginform.css.map */

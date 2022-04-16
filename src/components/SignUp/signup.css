@@ -1,0 +1,34 @@
+.SignupBtn {
+  background: transparent;
+  border: solid 3px var(--primary-color);
+  margin-top: 20px;
+  border-radius: 0px;
+  position: relative;
+  text-align: right;
+}
+
+.SignupBtn:before {
+  position: absolute;
+  content: "";
+  width: 140px;
+  height: 4px;
+  background-color: var(--secondary-color);
+  left: 16px;
+  top: 18px;
+}
+
+.SignupBtn:hover {
+  background-color: var(--primary-color);
+  border-color: transparent;
+}
+
+.link {
+  text-align: center;
+}
+
+.link a {
+  text-decoration: none;
+  color: var(--secondary-color);
+  font-size: 12px;
+}
+/*# sourceMappingURL=signup.css.map */

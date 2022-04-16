@@ -1,0 +1,43 @@
+.message{
+    font-size: 10px;
+}
+.forgot{
+    position: relative;
+    &:after{
+        position: absolute;
+        content: "";
+        width:115px;
+        height:4px;
+        background-color:var(--secondary-color);
+        left:40px;
+        top:136px;
+    }
+   
+}
+.form1{
+    margin-top: 40px;
+}
+
+
+.ForgotBtn{
+    background: transparent;
+    border: solid 3px var(--primary-color);
+    margin-top: 20px;
+    border-radius: 0px;
+    position: relative;
+    text-align: right;
+    &:before{
+        position: absolute;
+        content: "";
+        width:90px;
+        height:4px;
+        background-color:var(--secondary-color);
+        left:16px;
+        top:18px;
+    }
+    &:hover{
+        background-color: var(--primary-color);
+        border-color: transparent;
+    }
+    
+}
