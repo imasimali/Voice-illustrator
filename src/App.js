@@ -15,34 +15,24 @@ import MyProfile from "./components/MyProfile/MyProfile";
 import Footer from "./components/Footer/Footer";
 import Loading from "./components/Loading/Loading";
 
-
-
-
-
 function App() {
   return (
     <React.Fragment>
       <Routes>
-        <Route path="/login" element={<LoginForm />} /> 
-        <Route path="/sign-up" element={<SignUp/>} />
-        <Route path="/forgot-password" element={<ForgotPassword/>}/>
-        <Route path="/homepage" element={<HomePage/>}/>
-        <Route path="/SpeechtoImage" element={<SpeechtoImage/>}/>
-        <Route path="/NavBar" element={<NavBar/>}/>
-        <Route path="/MyCreation" element={<MyCreation/>}/>
-        <Route path="/Options" element={<Options/>}/>
-        <Route path="/StyleTransfer" element={<StyleTransfer/>}/>
-        <Route path="/ImageCaptioning" element={<ImageCaptioning/>}/>
-        <Route path="/Gallery" element={<Gallery/>}/>
-        <Route path="/myProfile" element={<MyProfile/>}/>
-        <Route path="/Footer" element={<Footer/>}/>
-        <Route path="/loading" element={<Loading/>}/>
-        
-        
-        
-
-
-
+        <Route path="/" element={<HomePage />} />
+        <Route path="/login" element={<LoginForm />} />
+        <Route path="/sign-up" element={<SignUp />} />
+        <Route path="/forgot-password" element={<ForgotPassword />} />
+        <Route path="/SpeechtoImage" element={<SpeechtoImage />} />
+        <Route path="/NavBar" element={<NavBar />} />
+        <Route path="/MyCreation" element={<MyCreation />} />
+        <Route path="/Options" element={<Options />} />
+        <Route path="/StyleTransfer" element={<StyleTransfer />} />
+        <Route path="/ImageCaptioning" element={<ImageCaptioning />} />
+        <Route path="/Gallery" element={<Gallery />} />
+        <Route path="/myProfile" element={<MyProfile />} />
+        <Route path="/Footer" element={<Footer />} />
+        <Route path="/loading" element={<Loading />} />
       </Routes>
       {/* <LoginForm />
       <SignUp />
